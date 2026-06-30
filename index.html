@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo profissional de Rodrigo Neris Alves - Professor, Contador e Especialista em Controladoria & Finanças. Profissional multidisciplinar com expertise em tecnologia, gestão financeira e excelência pedagógica.">
+    <meta name="keywords" content="Rodrigo Neris, Professor, Contador, Controladoria, Finanças, Python, Machine Learning, Coaching">
+    <meta name="author" content="Rodrigo Neris Alves">
+    <meta property="og:title" content="Rodrigo Neris Alves | Professor • Contador • Especialista em Controladoria & Finanças">
+    <meta property="og:description" content="Profissional multidisciplinar unindo inovação tecnológica, gestão financeira e excelência pedagógica.">
+    <meta property="og:type" content="website">
+    <title>Rodrigo Neris Alves | Professor • Contador • Especialista em Controladoria & Finanças</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">RN</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#experience" class="nav-link">Experiência</a></li>
+                <li><a href="#education" class="nav-link">Formação</a></li>
+                <li><a href="#certifications" class="nav-link">Certificações</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-animate="fade-up">
+                    <i class="fas fa-sparkles"></i>
+                    <span>Disponível para novas oportunidades</span>
+                </div>
+                <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                    <span class="hero-greeting">Olá, eu sou</span>
+                    <span class="hero-name">Rodrigo Neris<br>Alves</span>
+                </h1>
+                <div class="hero-role" data-animate="fade-up" data-delay="200">
+                    <span class="role-tag">Professor</span>
+                    <span class="role-divider">•</span>
+                    <span class="role-tag">Contador</span>
+                    <span class="role-divider">•</span>
+                    <span class="role-tag">Especialista em Controladoria & Finanças</span>
+                </div>
+                <p class="hero-description" data-animate="fade-up" data-delay="300">
+                    Profissional multidisciplinar unindo <strong>inovação tecnológica</strong>, 
+                    <strong>gestão financeira</strong> e <strong>excelência pedagógica</strong>.
+                </p>
+                <div class="hero-actions" data-animate="fade-up" data-delay="400">
+                    <a href="Arquivo/Curriculo Rodrigo Neris.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        <span>Baixar Currículo</span>
+                    </a>
+                    <a href="http://lattes.cnpq.br/5257095761530737" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>Currículo Lattes</span>
+                    </a>
+                </div>
+                <div class="hero-stats" data-animate="fade-up" data-delay="500">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-label">Graduações</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-label">Pós-Graduações</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2400">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Horas de Formação</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-animate="fade-left" data-delay="200">
+                <div class="image-wrapper">
+                    <div class="image-glow"></div>
+                    <div class="image-ring"></div>
+                    <img src="img/Professional profile picture.png" alt="Rodrigo Neris Alves - Foto Profissional" class="profile-img">
+                </div>
+                <div class="floating-card card-1" data-animate="float">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Finanças</span>
+                </div>
+                <div class="floating-card card-2" data-animate="float">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Educação</span>
+                </div>
+                <div class="floating-card card-3" data-animate="float">
+                    <i class="fas fa-code"></i>
+                    <span>Tecnologia</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" data-animate="fade-up" data-delay="700">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Role para descobrir mais</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Conheça-me</span>
+                <h2 class="section-title">Perfil <span class="gradient-text">Profissional</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-content" data-animate="fade-right">
+                    <div class="about-text">
+                        <p>
+                            Sou um profissional com formação sólida em <strong>Ciências Contábeis</strong>, 
+                            <strong>Matemática</strong> e <strong>Física</strong>, dedicado à integração 
+                            da inovação nas práticas pedagógicas e empresariais.
+                        </p>
+                        <p>
+                            Possuo especializações em <strong>Controladoria, Finanças e Auditoria</strong>, 
+                            além de ampla capacitação em Docência do Ensino Superior.
+                        </p>
+                        <p>
+                            Com forte perfil de liderança, sou formado em <strong>Coaching</strong> pelo 
+                            Instituto Brasileiro de Coaching (IBC) e em <strong>Liderança e Resiliência</strong> pela PUCRS.
+                        </p>
+                        <p>
+                            Tenho domínio avançado em tecnologias educacionais, <strong>análise de dados</strong> 
+                            e ferramentas como <strong>Python</strong> e <strong>Machine Learning</strong>, 
+                            sempre focando no desenvolvimento humano e na gestão eficiente de equipes.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-cards" data-animate="fade-left">
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>Experiência</h3>
+                            <p>Professor, Contador & Consultor Financeiro</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>Localização</h3>
+                            <p>Peixoto de Azevedo, MT - Brasil</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>Coaching</h3>
+                            <p>Formado pelo IBC - Instituto Brasileiro de Coaching</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>Idiomas</h3>
+                            <p>Português (Nativo) • Inglês (Intermediário) • Francês (Básico)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Competências</span>
+                <h2 class="section-title">Habilidades & <span class="gradient-text">Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Leadership -->
+                <div class="skill-card" data-animate="fade-up" data-delay="0">
+                    <div class="skill-card-header">
+                        <div class="skill-icon leadership">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3>Liderança e Gestão</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Coaching</span>
+                        <span class="skill-tag">Desenvolvimento de Equipes</span>
+                        <span class="skill-tag">Gestão de Conflitos</span>
+                        <span class="skill-tag">Negociação</span>
+                        <span class="skill-tag">Liderança Situacional</span>
+                        <span class="skill-tag">Resiliência</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="95">
+                            <div class="skill-bar-fill leadership-fill"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+
+                <!-- Pedagogy -->
+                <div class="skill-card" data-animate="fade-up" data-delay="100">
+                    <div class="skill-card-header">
+                        <div class="skill-icon pedagogy">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Pedagogia e Comunicação</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Oratória</span>
+                        <span class="skill-tag">Didática</span>
+                        <span class="skill-tag">Ensino Presencial & EAD</span>
+                        <span class="skill-tag">Material Didático</span>
+                        <span class="skill-tag">Ciências Exatas</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="92">
+                            <div class="skill-bar-fill pedagogy-fill"></div>
+                        </div>
+                        <span class="skill-percentage">92%</span>
+                    </div>
+                </div>
+
+                <!-- Technology -->
+                <div class="skill-card" data-animate="fade-up" data-delay="200">
+                    <div class="skill-card-header">
+                        <div class="skill-icon tech">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Tecnologia e Dados</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python (Avançado)</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Lógica de Programação</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="85">
+                            <div class="skill-bar-fill tech-fill"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+
+                <!-- Finance -->
+                <div class="skill-card" data-animate="fade-up" data-delay="300">
+                    <div class="skill-card-header">
+                        <div class="skill-icon finance">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Finanças e Contabilidade</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Auditoria</span>
+                        <span class="skill-tag">Controle Interno</span>
+                        <span class="skill-tag">Controladoria</span>
+                        <span class="skill-tag">Análise Financeira</span>
+                        <span class="skill-tag">Demonstrações Contábeis</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar" data-width="95">
+                            <div class="skill-bar-fill finance-fill"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Trajetória</span>
+                <h2 class="section-title">Experiência <span class="gradient-text">Profissional</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="fade-right">
+                    <div class="timeline-marker">
+                        <div class="timeline-marker-inner">
+                            <i class="fas fa-chalkboard"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge current">Atual</div>
+                        <h3 class="timeline-title">Professor / Instrutor</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Escola Particular Alegria de Aprender
+                        </h4>
+                        <p class="timeline-description">
+                            Ministro disciplinas de <strong>Matemática</strong>, <strong>Física</strong>, 
+                            <strong>Ciências Contábeis</strong> e <strong>Controladoria</strong>. 
+                            Desenvolvimento de metodologias ativas e integração de tecnologias educacionais no ensino de ciências exatas.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Matemática</span>
+                            <span>Física</span>
+                            <span>Contabilidade</span>
+                            <span>Controladoria</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-left">
+                    <div class="timeline-marker">
+                        <div class="timeline-marker-inner">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2022 - Atual</div>
+                        <h3 class="timeline-title">Contador / Consultor Financeiro</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Joy Kids / Escritório Contábil
+                        </h4>
+                        <p class="timeline-description">
+                            Atuação com <strong>auditoria interna</strong>, <strong>controladoria</strong> 
+                            e <strong>análise de demonstrações financeiras</strong>. 
+                            Consultoria financeira estratégica para tomada de decisões gerenciais.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Auditoria</span>
+                            <span>Controladoria</span>
+                            <span>Análise Financeira</span>
+                            <span>Consultoria</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Formação</span>
+                <h2 class="section-title">Formação <span class="gradient-text">Acadêmica</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Graduações -->
+            <div class="education-category" data-animate="fade-up">
+                <h3 class="category-title">
+                    <i class="fas fa-university"></i>
+                    Graduações
+                </h3>
+                <div class="education-grid">
+                    <div class="education-card" data-animate="fade-up" data-delay="0">
+                        <div class="edu-card-status in-progress">Em andamento</div>
+                        <div class="edu-card-icon">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <h4>Licenciatura em Física</h4>
+                        <p class="edu-institution">UNIFAVENI</p>
+                        <p class="edu-period"><i class="far fa-calendar-alt"></i> 2025 – Atual</p>
+                    </div>
+
+                    <div class="education-card" data-animate="fade-up" data-delay="100">
+                        <div class="edu-card-status completed">Concluída</div>
+                        <div class="edu-card-icon">
+                            <i class="fas fa-square-root-alt"></i>
+                        </div>
+                        <h4>Licenciatura em Matemática</h4>
+                        <p class="edu-institution">UNIBF</p>
+                        <p class="edu-period"><i class="far fa-calendar-alt"></i> 2023 – 2025</p>
+                    </div>
+
+                    <div class="education-card" data-animate="fade-up" data-delay="200">
+                        <div class="edu-card-status completed">Concluído</div>
+                        <div class="edu-card-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <h4>Bacharelado em Ciências Contábeis</h4>
+                        <p class="edu-institution">UNOPAR</p>
+                        <p class="edu-period"><i class="far fa-calendar-alt"></i> 2013 – 2018</p>
+                        <div class="edu-badge">
+                            <i class="fas fa-award"></i> Bolsista PROUNI
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pós-graduações -->
+            <div class="education-category" data-animate="fade-up">
+                <h3 class="category-title">
+                    <i class="fas fa-user-graduate"></i>
+                    Pós-Graduação & Especializações
+                </h3>
+                <div class="education-grid">
+                    <div class="education-card" data-animate="fade-up" data-delay="0">
+                        <div class="edu-card-status completed">Concluído</div>
+                        <div class="edu-card-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h4>MBA em Controladoria e Finanças</h4>
+                        <p class="edu-institution">FASUL</p>
+                        <p class="edu-period"><i class="far fa-calendar-alt"></i> 2023</p>
+                        <p class="edu-hours"><i class="far fa-clock"></i> 420 horas</p>
+                    </div>
+
+                    <div class="education-card" data-animate="fade-up" data-delay="100">
+                        <div class="edu-card-status completed">Concluída</div>
+                        <div class="edu-card-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <h4>Esp. em Docência do Ensino Superior</h4>
+                        <p class="edu-institution">Gran Centro Universitário</p>
+                        <p class="edu-period"><i class="far fa-calendar-alt"></i> 2023</p>
+                        <p class="edu-hours"><i class="far fa-clock"></i> 415 horas</p>
+                    </div>
+
+                    <div class="education-card" data-animate="fade-up" data-delay="200">
+                        <div class="edu-card-status completed">Concluída</div>
+                        <div class="edu-card-icon">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <h4>Esp. em Auditoria e Controladoria</h4>
+                        <p class="edu-institution">FASOUZA</p>
+                        <p class="edu-period"><i class="far fa-calendar-alt"></i> 2023</p>
+                        <p class="edu-hours"><i class="far fa-clock"></i> 360 horas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Desenvolvimento Contínuo</span>
+                <h2 class="section-title">Certificações de <span class="gradient-text">Destaque</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Mais de <strong>2.400 horas</strong> em formação complementar</p>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-category" data-animate="fade-up" data-delay="0">
+                    <div class="cert-category-header">
+                        <div class="cert-category-icon tech-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Tecnologia</h3>
+                    </div>
+                    <ul class="cert-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ciência de Dados com Python <em>(Santander)</em></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Formação Machine Learning Specialist <em>(DIO.ME)</em></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Formação Python Developer <em>(DIO.ME)</em></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cert-category" data-animate="fade-up" data-delay="100">
+                    <div class="cert-category-header">
+                        <div class="cert-category-icon edu-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Educação</h3>
+                    </div>
+                    <ul class="cert-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Informática na Educação <em>(FASOUZA)</em></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Formação ao Mundo do Trabalho <em>(AVAMEC)</em></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cert-category" data-animate="fade-up" data-delay="200">
+                    <div class="cert-category-header">
+                        <div class="cert-category-icon leadership-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Liderança & Coaching</h3>
+                    </div>
+                    <ul class="cert-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Professional & Self Coaching <em>(IBC)</em></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Liderança e Resiliência <em>(PUCRS)</em></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Vamos Conversar</span>
+                <h2 class="section-title">Entre em <span class="gradient-text">Contato</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:professorrodrigoneris@gmail.com" class="contact-card" data-animate="fade-up" data-delay="0">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>E-mail</h3>
+                    <p>professorrodrigoneris@gmail.com</p>
+                </a>
+
+                <a href="https://wa.me/5566992331535" class="contact-card" data-animate="fade-up" data-delay="100" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>(66) 99233-1535</p>
+                </a>
+
+                <a href="http://lattes.cnpq.br/5257095761530737" class="contact-card" data-animate="fade-up" data-delay="200" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-icon lattes">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Currículo Lattes</h3>
+                    <p>Acesse meu perfil completo</p>
+                </a>
+
+                <div class="contact-card location" data-animate="fade-up" data-delay="300">
+                    <div class="contact-icon location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Localização</h3>
+                    <p>Peixoto de Azevedo / MT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">RN</span>
+                    <p>Rodrigo Neris Alves</p>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Rodrigo Neris Alves. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:professorrodrigoneris@gmail.com" aria-label="E-mail"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/5566992331535" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="http://lattes.cnpq.br/5257095761530737" target="_blank" rel="noopener noreferrer" aria-label="Lattes"><i class="fas fa-graduation-cap"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
